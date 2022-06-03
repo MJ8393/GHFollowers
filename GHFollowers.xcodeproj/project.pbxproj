@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5700374E284A5A15001A3EC3 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700374D284A5A15001A3EC3 /* PersistanceManager.swift */; };
+		57003750284AA009001A3EC3 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700374F284AA009001A3EC3 /* FavoriteCell.swift */; };
 		57180B4E2846E275003DC854 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57180B4D2846E274003DC854 /* GFItemInfoView.swift */; };
 		57180B502846E758003DC854 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57180B4F2846E758003DC854 /* SFSymbols.swift */; };
 		57180B542846EAC4003DC854 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57180B532846EAC4003DC854 /* GFItemInfoVC.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5700374D284A5A15001A3EC3 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		5700374F284AA009001A3EC3 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		57180B4D2846E274003DC854 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		57180B4F2846E758003DC854 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		57180B532846EAC4003DC854 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				57B686D9283B477900986E92 /* NetworkManager.swift */,
+				5700374D284A5A15001A3EC3 /* PersistanceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				57D1BAC32840164E002E160C /* FollowerCell.swift */,
+				5700374F284AA009001A3EC3 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -346,7 +352,9 @@
 				57180B4E2846E275003DC854 /* GFItemInfoView.swift in Sources */,
 				57180B582846FA96003DC854 /* GFFollowerItemVC.swift in Sources */,
 				57D1BAC42840164E002E160C /* FollowerCell.swift in Sources */,
+				57003750284AA009001A3EC3 /* FavoriteCell.swift in Sources */,
 				57B686C9283966C900986E92 /* GFBodyLabel.swift in Sources */,
+				5700374E284A5A15001A3EC3 /* PersistanceManager.swift in Sources */,
 				57504D612846AA2700CA4A51 /* GFUserInfoHeaderVC.swift in Sources */,
 				57504D5F2846A3C900CA4A51 /* GFError.swift in Sources */,
 				57B686D4283ABADD00986E92 /* Follower.swift in Sources */,
